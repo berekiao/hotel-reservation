@@ -15,14 +15,13 @@ Ce projet est une application web développée avec **Jakarta EE**, **GrizzlySer
 ```sh
 git clone https://github.com/ton-utilisateur/ton-repo.git
 cd ton-repo
-
-### Compiler le development
 ```
+### Compiler le development
+```sh
 mvn clean compile
 ```
-
 ### Exécuter le projet
-```
+```sh
 mvn exec:java -Dexec.mainClass="com.hotel.GrizzlyServer"
 ```
 
