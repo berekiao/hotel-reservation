@@ -1,0 +1,9 @@
+com/hotel/entities/Chambre.class
+com/hotel/entities/Reservation.class
+com/hotel/config/JAXRSConfiguration.class
+com/hotel/resources/ReservationResource.class
+com/hotel/entities/Chambre$Categorie.class
+com/hotel/config/CorsFilter.class
+com/hotel/GrizzlyServer.class
+com/hotel/GrizzlyServer$ObjectMapperProvider.class
+com/hotel/resources/ChambreResource.class
