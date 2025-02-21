@@ -25,7 +25,8 @@ mvn clean compile
 mvn exec:java -Dexec.mainClass="com.hotel.GrizzlyServer"
 ```
 
-📌 Routes API REST
+### 📌 Routes API REST
+```sh
 🔹 Chambres
 GET /api/chambres/disponibles → Liste des chambres disponibles
 POST /api/reservations → Réserver une chambre
@@ -33,8 +34,10 @@ GET /api/reservations/client/{nom} → Rechercher les réservations d’un clien
 🔹 Réservations
 PUT /api/reservations/{id} → Modifier une réservation
 DELETE /api/reservations/{id} → Annuler une réservation
+```
 
-🎨 Interfaces Web
+### 🎨 Interfaces Web
+```sh
 L'application inclut une interface utilisateur en HTML/CSS + Bootstrap :
 
 Accueil → index.html
@@ -47,3 +50,4 @@ GrizzlyServer (Serveur web léger)
 Hibernate (ORM pour PostgreSQL)
 PostgreSQL (Base de données)
 Bootstrap 5.3 (Interface utilisateur)
+```
